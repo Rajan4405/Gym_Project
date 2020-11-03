@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/gymbg.jpg');
+    color: white;
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    background-size: cover;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid greenyellow; */
+    position: absolute;
+    left: 39px;
+    top: 20px;
+}
+.left img{
+    width: 126px;
+    filter: invert(100%);
+    
+}
+.left div{
+    line-height: 24px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mid{
+    display: block;
+    width: 50%;
+    margin: 28px auto;
+    /* border: 2px solid greenyellow; */
+}
+
+.right{
+    position: absolute;
+    display: inline-block;
+    right: 39px;
+    top: 40px;
+    /* border: 2px solid greenyellow; */
+}
+.navbar{
+    display: inline-block;
+
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: grey;
+    text-decoration: underline;
+    
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(112, 104, 104);
+}
+.container{
+    border: 2px solid rgb(187, 216, 187);
+    margin: 128px 47px;
+    padding: 66px 16px;
+    width: 33%;
+    border-radius: 46px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    font-size:25px ;
+    margin:10px  auto ;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+
+}
